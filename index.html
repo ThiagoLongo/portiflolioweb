@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Thiago Longo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Thiago Longo</h1>
+
+      <img
+        class="minhafoto"
+        src="https://i.im.ge/2024/09/16/fp64vp.WhatsApp-Image-2024-09-15-at-14-05-10.jpeg"
+        alt="foto"
+      />
+
+      <nav>
+        <h3>Acesse meus perfis:</h3>
+        <a href="https://github.com/ThiagoLongo">
+          <img
+            class="github"
+            src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png"
+            alt="github"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/thiago-longo-825016323/">
+          <img
+            class="linkedin"
+            src="https://cdn.icon-icons.com/icons2/2997/PNG/512/linkedin_logo_icon_187625.png"
+            alt="linkedin"
+          />
+        </a>
+      </nav>
+      <br />
+
+      <nav class="navegação">
+        <ul>
+          <li><a href="#sobremim">Sobre mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobremim">
+        <h2>Sobre mim:</h2>
+        <p>
+          Meu nome é Thiago Longo, tenho 20 anos e atualmente estou cursando
+          Análise e Desenvolvimento de Sistemas. Sou gosto bastante de
+          tecnologia e estou sempre em busca oportunidades para aprender mais,
+          não somente na area de desenvolvimento. Além do meu interesse em
+          tecnologia, gosto de viajar, o que me proporciona novas perspectivas e
+          inspirações, além de momentos relaxantes para esfriar a cabeça. Também
+          gosto de ler, o que me ajuda a expandir minha criatividade e
+          conhecimento. Em momentos mais livres eu gosto muito de jogar alguns
+          jogos principalmente com meus amigos. Atualmente, estou aprimorando
+          meu inglês através de um curso, o que considero essencial para minha
+          carreira e desenvolvimento pessoal. Estou sempre aberto a novas
+          oportunidades e desafios que possam contribuir para minha formação e
+          experiência na área de tecnologia.
+        </p>
+      </section>
+
+      <section>
+        <h2>Habilidades:</h2>
+        <ol>
+          <li>Desenvolvimento Web</li>
+          <li>Linguagem C</li>
+          <li>Trabalho em equipe</li>
+          <li>Aprendizagem contínua</li>
+          <li>Inglês básico</li>
+        </ol>
+
+        <h2>Hobbies:</h2>
+        <ul>
+          <li>Desenhar/Artes</li>
+          <li>Jogar</li>
+          <li>Ler</li>
+          <li>Viajar</li>
+        </ul>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos:</h2>
+        <article>
+          <h3>Projeto 1: Página Web Pessoal</h3>
+          <p>
+            Desenvolvi uma página web pessoal utilizando HTML e CSS. O projeto
+            foi focado na criação de um portfólio interativo.
+          </p>
+        </article>
+        <article>
+          <h3>Projeto 2: Armadilha de inseto</h3>
+          <p>
+            Criei um projeto em grupo na faculdade para capturar pernilongos
+          </p>
+        </article>
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades Técnicas:</h2>
+        <table>
+          <tr>
+            <th>Habilidades</th>
+            <th>Nível</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Iniciante</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Iniciante</td>
+          </tr>
+          <tr>
+            <td>Linguagem C</td>
+            <td>Iniciante</td>
+          </tr>
+          <tr>
+            <td>Inglês</td>
+            <td>Básico</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="contato">
+        <h2>Formulário de contato:</h2>
+        <form action="https://formspree.io/f/xqazonbg" method="POST">
+          <label for="nome">Nome:</label><br />
+          <input type="text" id="nome" name="nome" required /><br />
+
+          <label for="email">E-mail:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+
+          <label>Gênero:</label><br />
+          <input type="radio" name="genero" value="masculino" /> Masculino
+          <input type="radio" name="genero" value="feminino" /> Feminino
+          <input type="radio" name="genero" value="outro" /> Outro<br />
+
+          <label>Interesses:</label><br />
+          <input type="checkbox" name="interesses" value="tecnologia" />
+          Tecnologia
+          <input type="checkbox" name="interesses" value="viagens" /> Viagens
+          <input type="checkbox" name="interesses" value="livros" />
+          Livros<br />
+
+          <label for="mensagem">Mensagem:</label><br />
+          <textarea id="mensagem" name="mensagem"></textarea><br />
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Contato: <u>Thiagolongo012@gmail.com</u></p>
+    </footer>
+  </body>
+</html>
